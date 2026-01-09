@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+
+.log-in{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 30em;
+  margin: auto;
+  gap: 40px;
+  border-radius: 2rem;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #fff192, #ffffb7);
+}
+
+.log-in a{
+  margin: auto;
+  width: max-content;
+  max-height: fit-content;
+}
+
+form#Login{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  flex: 1 1 300px;
+  flex-wrap: wrap;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+input{
+  width: 60%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  flex-basis: auto;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+button{
+  background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width: max-content;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  justify-content: center;
+  width: max-content;
+  align-self: center;
+  flex-basis: auto;
+  margin: auto;
+}
