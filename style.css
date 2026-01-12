@@ -137,3 +137,31 @@ display: inline-block;
 .dropdown-content a:hover {
   text-decoration: underline;
 }
+
+.assignments{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 2em;
+  background-color:#ddd;
+  padding: 2em;
+} 
+.SubjetList{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 2em;
+}
+
+.addAssignment{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  gap: 20px;
+  padding: 2em;
+  border-radius: 2em;
+  margin-top: 2em;
+}
