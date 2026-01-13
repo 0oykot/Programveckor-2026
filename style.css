@@ -189,3 +189,64 @@ display: inline-block;
   border-radius: 2em;
   margin-top: 2em;
 }
+
+.frontpage, .Aboutus{
+  background-color: #FFFF82;
+  width: 70%;
+  margin: auto;
+  padding: 2em;
+  border-radius: 2em;
+}
+
+.frontpage h1{
+  width: max-content;
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+.YUH{
+  display: flex;
+}
+
+.YUH p{
+  width: 60%;
+  background-color: white;
+  padding: 1em;
+  border-radius: 2em;
+  line-height: 1.5em;
+}
+
+
+.YUH a{
+width: max-content;
+padding: auto;
+margin: auto;
+text-decoration: none;
+color: #f1f1f1;
+background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
+border: none;
+border-radius: 2em;
+color: white;
+font-weight: bold;
+cursor: pointer;
+transition: 0.3s;
+padding: 1em;
+}
+
+
+.bullet{
+  width: max-content;
+  margin: auto;
+  margin-top: 2em;
+}
+
+.bullet li{
+margin: 1em;
+}
+
+#us{
+  background-color: white;
+  padding: 2em;
+  border-radius: 2em;
+  line-height: 1.5em;
+}
