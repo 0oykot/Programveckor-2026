@@ -34,7 +34,7 @@ body {
   color: black;
 }
 .log-in a:hover{
-  color: blue;
+  color: rgb(41, 41, 152);
 }
 
 #create-a{
@@ -43,7 +43,7 @@ body {
 
 a#link{
   text-decoration: underline;
-  padding-bottom: 1em;
+  padding-bottom: 0.1em;
 }
 
 
@@ -109,6 +109,14 @@ padding: 0.5em;
   color: black;
 }
 
+.navbar img{
+  width: 2em;
+  height: 2em;
+}
+
+.navbar a{
+  margin: auto;
+}
 
 
 
