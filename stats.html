@@ -1,47 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stats Page</title>
+  <link rel="stylesheet" href="stats.css">
 </head>
+
 <body>
-    <div class="header">
-        <button class="menu-btn">
-            <span>Menu</span>
-            <div class="hamburger">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </button>
-        <div class="user-icon">👶🏿</div>
+
+  <header class="navbar">
+    <div class="drop">
+      <p>Meny <span class="hamburger">☰</span></p>
+      <div class="dropdown-content">
+        <a href="assignment.html">Assignments</a>
+        <a href="stats.html">Current stats</a>
+        <a href="character.html">Character</a>
+        <a href="index.html">Profile</a>
+      </div>
     </div>
+  </header>
 
-    <div class="container">
-        <div class="card">
-            <h2>Points status</h2>
-            <p>To get more points:</p>
-            <div class="points-list">
-                <ul>
-                    <li>Complete Daily Quests!</li>
-                    <li>Complete Assignments!</li>
-                    <li>Unlock Acheievments!</li>
-                </ul>
-            </div>
+  <main>
+    <section class="points-section">
+      <div class="points-status">
+        <h2>Points status: 9999</h2>
+        <p class="subtitle">To get more points:</p>
+        <ul class="points-list">
+          <li>Complete Assignments!</li>
+          <li>Do Daily Quests!</li>
+          <li>Practice Using Flashcards!</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="buttons-section">
+      <button class="action-btn">My assignments</button>
+      <button class="action-btn">Daily quest</button>
+    </section>
+
+    <section class="streak-section">
+      <div class="streak-container">
+        <h2>streak</h2>
+        <div class="streak-display">
+          <span class="streak-number">46</span>
+          <span class="fire-icon">🔥</span>
         </div>
+      </div>
+    </section>
+  </main>
 
-        <div class="button-card">my assignments</div>
-
-        <div class="card">
-            <h2>streak</h2>
-            <div class="streak-number">
-                46 <span class="fire-icon">🔥</span>
-            </div>
-        </div>
-
-        <div class="button-card">daily quest</div>
-    </div>
+  <footer>&copy; 2026 programveckor</footer>
 </body>
+
 </html>
