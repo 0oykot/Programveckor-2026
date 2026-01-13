@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #f8f0e3;
+  background: #fafafa;
   color: #333;
 }
 
@@ -23,7 +23,7 @@ body {
   gap: 40px;
   border-radius: 2rem;
   padding: 60px 20px;
-  background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
+  background: linear-gradient(to right, #FFF192, #F8C51F);
 }
 
 .log-in a{
@@ -43,7 +43,7 @@ body {
 
 a#link{
   text-decoration: underline;
-  padding-bottom: 0.1em;
+  padding-bottom: 1em;
 }
 
 
@@ -54,7 +54,7 @@ form#Login{
   margin: auto;
   flex: 1 1 300px;
   flex-wrap: wrap;
-  background: #f8f0e3;
+  background: white;
   padding: 1em;
   border-radius: 20px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -90,7 +90,7 @@ h1{
 }
 
 .navbar{
-  background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
+  background: #FFFF82;
   display: flex;
   flex-direction: row;
   border-radius: 2em;
@@ -99,34 +99,28 @@ h1{
 }
 
 .navbar p{
-padding: 0.5em;
+  padding: 0.5em;
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .navbar #login{
-  margin: auto;
-  margin-left: 80%;
-  text-decoration: none;
-  color: black;
+  align-self:flex-end;
 }
-
-
 
 
 .drop{
-position: relative;
-display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
-
 .hamburger{
-  border-radius: 2em;
-  outline-width: 0.3em;
-  outline: auto;
-  outline-color:#f8f0e3;
-  padding: 0.5em;
+  cursor: pointer;
 }
 
 #button{
+  
   background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
   padding: 12px 24px;
   border: none;
@@ -152,7 +146,7 @@ display: inline-block;
 
 .dropdown-content a{
   color: black;
-   background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
+  background: #FFFF82;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -194,62 +188,110 @@ display: inline-block;
   margin-top: 2em;
 }
 
-.frontpage, .Aboutus{
-  background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
-  width: 70%;
-  margin: auto;
-  padding: 2em;
-  border-radius: 2em;
-}
-
-.frontpage h1{
-  width: max-content;
-  margin: auto;
-  padding-bottom: 1em;
-}
-
-.YUH{
+.points-section{
   display: flex;
-}
-
-.YUH p{
-  width: 60%;
-  background: #f8f0e3;
-  padding: 1em;
-  border-radius: 2em;
-  line-height: 1.5em;
-}
-
-
-.YUH a{
-width: max-content;
-padding: auto;
-margin: auto;
-text-decoration: none;
-background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
-border: none;
-border-radius: 2em;
-color: black;
-font-weight: bold;
-cursor: pointer;
-transition: 0.3s;
-padding: 1em;
-}
-
-
-.bullet{
-  width: max-content;
-  margin: auto;
+  justify-content: center;
   margin-top: 2em;
 }
 
-.bullet li{
-margin: 1em;
+.points-status{
+  background: #ddd;
+  width: 60%;
+  padding: 2em;
+  border-radius: 1em;
+  text-align: center;
 }
 
-#us{
-  background-color: #f8f0e3;;
+.points-status h2{
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.subtitle{
+  margin-bottom: 0.5em;
+}
+
+.subtitle-bold{
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.points-list{
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+
+.points-list li{
+  margin: 0.5em 0;
+}
+
+.buttons-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 2em;
+}
+
+.action-btn{
+  background: #ddd;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 8px;
+  color: #333;
+  font-weight: normal;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 250px;
+  font-size: 14px;
+}
+
+.action-btn:hover{
+  background: #ccc;
+  transform: scale(1.05);
+}
+
+.streak-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.streak-container{
+  background: #ddd;
+  width: 50%;
   padding: 2em;
-  border-radius: 2em;
-  line-height: 1.5em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.streak-container h2{
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.streak-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 1em;
+}
+
+.streak-number{
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.fire-icon{
+  font-size: 3em;
+}
+
+footer{
+  text-align: center;
+  padding: 2em;
+  color: #666;
+  font-size: 0.9em;
 }
