@@ -23,7 +23,7 @@ body {
   gap: 40px;
   border-radius: 2rem;
   padding: 60px 20px;
-  background: linear-gradient(to right, #FCEABB, #F8C51F);
+  background: linear-gradient(to right, #FFF192, #F8C51F);
 }
 
 .log-in a{
@@ -74,20 +74,6 @@ input{
   margin-bottom: 1em;
 }
 
-button{
-  background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
-  padding: 12px 24px;
-  border: none;
-  border-radius: 25px;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.3s;
-  width: max-content;
-  margin: 1em;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 button:hover{
   transform: scale(1.05);
@@ -127,6 +113,22 @@ display: inline-block;
 }
 
 .hamburger{
+}
+
+#button{
+  
+  background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width: max-content;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dropdown-content{
