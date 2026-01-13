@@ -112,11 +112,7 @@ position: relative;
 display: inline-block;
 }
 
-.hamburger{
-}
-
 #button{
-  
   background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
   padding: 12px 24px;
   border: none;
