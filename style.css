@@ -5,6 +5,89 @@
   padding: 0;
 }
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+
+.log-in{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+  height: 30em;
+  margin: auto;
+  gap: 40px;
+  border-radius: 2rem;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #FFF192, #F8C51F);
+}
+
+.log-in a{
+  margin: auto;
+  width: max-content;
+  max-height: fit-content;
+  text-decoration: none;
+  color: black;
+}
+.log-in a:hover{
+  color: blue;
+}
+
+#create-a{
+  color:white;
+}
+
+a#link{
+  text-decoration: underline;
+  padding-bottom: 1em;
+}
+
+
+form#Login{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  flex: 1 1 300px;
+  flex-wrap: wrap;
+  background: white;
+  padding: 1em;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+input{
+  width: 95%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+  flex-basis: auto;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+}
+
+
+button:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+  justify-content: center;
+  width: max-content;
+  align-self: center;
+  flex-basis: auto;
+  margin: auto;
+  padding-top: 1em;
+}
 
 .navbar{
   background: #FFFF82;
@@ -18,6 +101,7 @@
 .navbar p{
 padding: 0.5em;
 }
+
 .navbar #login{
   margin: auto;
   margin-left: 80%;
@@ -35,6 +119,22 @@ display: inline-block;
   outline: auto;
   outline-color: white;
   padding: 0.5em;
+}
+
+#button{
+  
+  background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  width: max-content;
+  margin: 1em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dropdown-content{
@@ -62,64 +162,30 @@ display: inline-block;
   text-decoration: underline;
 }
 
-.frontpage, .Aboutus{
-  background-color: #FFFF82;
-  width: 70%;
-  margin: auto;
-  padding: 2em;
-  border-radius: 2em;
-}
-
-.frontpage h1{
-  width: max-content;
-  margin: auto;
-  padding-bottom: 1em;
-}
-
-.YUH{
+.assignments{
   display: flex;
-}
-
-.YUH p{
+  flex-direction: column;
+  gap: 20px;
   width: 60%;
-  background-color: white;
-  padding: 1em;
-  border-radius: 2em;
-  line-height: 1.5em;
-}
-
-
-.YUH a{
-width: max-content;
-padding: auto;
-margin: auto;
-text-decoration: none;
-color: #f1f1f1;
-background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
-border: none;
-border-radius: 2em;
-color: white;
-font-weight: bold;
-cursor: pointer;
-transition: 0.3s;
-padding: 1em;
-}
-
-
-.bullet{
-  width: max-content;
   margin: auto;
   margin-top: 2em;
+  background-color:#ddd;
+  padding: 2em;
+} 
+.SubjetList{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 2em;
 }
 
-.bullet li{
-margin: 1em;
-}
-
-#us{
-  background-color: white;
+.addAssignment{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  gap: 20px;
   padding: 2em;
   border-radius: 2em;
-  line-height: 1.5em;
-}
+  margin-top: 2em;
 }
