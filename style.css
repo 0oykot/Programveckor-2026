@@ -194,7 +194,7 @@ display: inline-block;
   margin-top: 2em;
 }
 
-.frontpage, .Aboutus{
+.frontpage, .Aboutus, .buttons-section,.points-section,.streak-section{
   background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
   width: 70%;
   margin: auto;
@@ -252,4 +252,113 @@ margin: 1em;
   padding: 2em;
   border-radius: 2em;
   line-height: 1.5em;
+}
+
+.points-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.points-status{
+  background: #f8f0e3;
+  width: 60%;
+  padding: 2em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.points-status h2{
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.subtitle{
+  margin-bottom: 0.5em;
+}
+
+.subtitle-bold{
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+.points-list{
+  list-style: none;
+  padding: 0;
+  line-height: 2;
+}
+
+.points-list li{
+  margin: 0.5em 0;
+}
+
+.buttons-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 2em;
+  width: max-content;
+}
+
+.action-btn{
+  background: #f8f0e3;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 8px;
+  color: #333;
+  font-weight: normal;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 250px;
+  font-size: 14px;
+}
+
+.action-btn:hover{
+  background: #eecfbd;
+  transform: scale(1.05);
+}
+
+.streak-section{
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.streak-container{
+  background: #f8f0e3;
+  width: 50%;
+  padding: 2em;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.streak-container h2{
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+
+.streak-display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 1em;
+}
+
+.streak-number{
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.fire-icon{
+  font-size: 3em;
+}
+
+footer{
+  text-align: center;
+  padding: 2em;
+  color: #666;
+  font-size: 0.9em;
 }
