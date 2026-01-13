@@ -8,7 +8,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background: #fafafa;
+  background: #f8f0e3;
   color: #333;
 }
 
@@ -23,7 +23,7 @@ body {
   gap: 40px;
   border-radius: 2rem;
   padding: 60px 20px;
-  background: linear-gradient(to right, #FFF192, #F8C51F);
+  background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
 }
 
 .log-in a{
@@ -34,11 +34,11 @@ body {
   color: black;
 }
 .log-in a:hover{
-  color: rgb(36, 36, 158);
+  color: blue;
 }
 
 #create-a{
-  color:black;
+  color:white;
 }
 
 a#link{
@@ -54,7 +54,7 @@ form#Login{
   margin: auto;
   flex: 1 1 300px;
   flex-wrap: wrap;
-  background: white;
+  background: #f8f0e3;
   padding: 1em;
   border-radius: 20px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -90,7 +90,7 @@ h1{
 }
 
 .navbar{
-  background: #FFFF82;
+  background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
   display: flex;
   flex-direction: row;
   border-radius: 2em;
@@ -99,33 +99,39 @@ h1{
 }
 
 .navbar p{
-  padding: 0.5em;
-  display: flex;
-  gap: 10px;
-  align-items: center;
+padding: 0.5em;
 }
 
 .navbar #login{
-  align-self:flex-end;
+  margin: auto;
+  margin-left: 80%;
+  text-decoration: none;
+  color: black;
 }
+
+
 
 
 .drop{
-  position: relative;
-  display: inline-block;
+position: relative;
+display: inline-block;
 }
 
+
 .hamburger{
-  cursor: pointer;
+  border-radius: 2em;
+  outline-width: 0.3em;
+  outline: auto;
+  outline-color:#f8f0e3;
+  padding: 0.5em;
 }
 
 #button{
-  
   background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
   padding: 12px 24px;
   border: none;
   border-radius: 25px;
-  color: black;
+  color: white;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
@@ -146,7 +152,7 @@ h1{
 
 .dropdown-content a{
   color: black;
-  background: #FFFF82;
+   background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -204,19 +210,46 @@ h1{
 
 .YUH{
   display: flex;
-  justify-content: center;
+}
+
+.YUH p{
+  width: 60%;
+  background: #f8f0e3;
+  padding: 1em;
+  border-radius: 2em;
+  line-height: 1.5em;
+}
+
+
+.YUH a{
+width: max-content;
+padding: auto;
+margin: auto;
+text-decoration: none;
+background: linear-gradient(135deg, #F4C2C2 0%, #FFC0CB 100%);
+border: none;
+border-radius: 2em;
+color: black;
+font-weight: bold;
+cursor: pointer;
+transition: 0.3s;
+padding: 1em;
+}
+
+
+.bullet{
+  width: max-content;
+  margin: auto;
   margin-top: 2em;
 }
 
-.points-status{
-  background: #ddd;
-  width: 60%;
-  padding: 2em;
-  border-radius: 1em;
-  text-align: center;
+.bullet li{
+margin: 1em;
 }
 
-.points-status h2{
-  margin-bottom: 1em;
-  font-size: 1.2em;
+#us{
+  background-color: #f8f0e3;;
+  padding: 2em;
+  border-radius: 2em;
+  line-height: 1.5em;
 }
