@@ -103,13 +103,23 @@ padding: 0.5em;
 }
 
 .navbar #login{
-  align-self:flex-end;
+  margin: auto;
+  margin-left: 80%;
 }
 
 
 .drop{
 position: relative;
 display: inline-block;
+}
+
+
+.hamburger{
+  border-radius: 2em;
+  outline-width: 0.3em;
+  outline: auto;
+  outline-color: white;
+  padding: 0.5em;
 }
 
 #button{
