@@ -322,6 +322,10 @@ margin: 1em;
   font-size: 14px;
 }
 
+.action-btn a{
+  text-decoration: none;
+}
+
 .action-btn:hover{
   background: #eecfbd;
   transform: scale(1.05);
