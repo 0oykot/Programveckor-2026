@@ -213,7 +213,6 @@ display: inline-block;
   gap: 20px;
   padding: 2em;
   border-radius: 2em;
-  margin-top: 2em;
 }
 
 .frontpage, .Aboutus, .buttons-section,.points-section,.streak-section, .assignments, .achievments {
@@ -432,10 +431,132 @@ margin: 1em;
 .fire-icon{
   font-size: 3em;
 }
+#openbutton{
+display: block;
+}
+
+.formAdd{
+  display: none;
+
+}
 
 footer{
   text-align: center;
   padding: 2em;
   color: #666;
   font-size: 0.9em;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: #ffeb3b;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-btn {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.user-icon {
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    max-width: 1200px;
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.character-box {
+    background-color: #d3d3d3;
+    width: 160px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.shop-btn {
+    width: 150px;
+    padding: 15px;
+    background-color: #d3d3d3;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.shop-grid {
+    background-color: #d3d3d3;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: fit-content;
+}
+
+.shop-item {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item-icon {
+    font-size: 24px;
+}
+
+.price-label {
+    grid-column: 1 / 5;
+    text-align: left;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.inventory-box {
+    width: 200px;
+    height: 330px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
 }
