@@ -11,7 +11,6 @@ html{
 
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
   background: #f8f0e3;
   color: #333;
 }
@@ -90,7 +89,6 @@ h1{
   align-self: center;
   flex-basis: auto;
   margin: auto;
-  padding-top: 1em;
 }
 
 .navbar{
@@ -218,18 +216,67 @@ display: inline-block;
   margin-top: 2em;
 }
 
-.frontpage, .Aboutus, .buttons-section,.points-section,.streak-section{
+.frontpage, .Aboutus, .buttons-section,.points-section,.streak-section, .assignments, .achievments {
   background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
-  width: 70%;
+  width: 40%;
   margin: auto;
   padding: 2em;
   border-radius: 2em;
 }
 
-.frontpage h1{
+ #topassign{
+  background: linear-gradient(to right, #ecc5c5, #cc9797,#d89595);
+  width: max-content;
+  margin: auto;
+  margin-bottom: 3em;
+  border-radius: 2em;
+  padding: 1em;
+ }
+
+.frontpage h2{
   width: max-content;
   margin: auto;
   padding-bottom: 1em;
+}
+
+.assignments{
+width: fit-content;
+}
+
+.assign{
+  background: #f8f0e3;
+  padding: 1em;
+  border-radius: 2em;
+  line-height: 1.5em;
+  display: flex;
+}
+
+.assign p{
+  font-weight: bold;
+  width: max-content;
+}
+
+.assign label{
+  margin-left: 4em;
+
+}
+
+.assign #file{
+margin: auto;
+}
+
+.achievments h2{
+  margin: auto;
+  width: max-content;
+  margin-bottom: 1em;
+}
+
+#done{
+  background: #f8f0e3;
+  padding: 1em;
+  border-radius: 2em;
+  line-height: 1.5em;
+  display: flex;
 }
 
 .YUH{

@@ -29,43 +29,55 @@
   </header>
 
       <main>
-        <section class="assignments">
-            <Div class="assign"></Div>
-            <p>assignment 1</p>
-            <Div class="assign"></Div>
-            <p>assignment 2</p>
-            <Div class="assign"></Div>
-            <p>assignment 3</p>
-            <Div class="assign"></Div>
-            <p>assignment 4</p>
+
+        <section id="topassign">
+          <h1>Assignments</h1>
         </section>
-            
-        <section class="SubjetList">
-            <ul>
-                <li>Subject 1</li>
-                <li>Subject 2</li>
-                <li>Subject 3</li>
-                <li>Subject 4</li>
-            </ul>
+
+        <section class="assignments">
+            <Div class="assign">
+              <p>Math calculations</p>
+              <label for="assignment"> Assignment progress:</label>
+              <progress id="file" max="100" value="70">70%</progress>
+            </Div>
+            <Div class="assign">
+              <p>Religion presentation</p>
+              <label for="assignment"> Assignment progress:</label>
+              <progress id="file" max="100" value="90">90%</progress>
+            </Div>
+            <Div class="assign">
+              <p>English homework</p>
+              <label for="assignment"> Assignment progress:</label>
+              <progress id="file" max="100" value="20">20%</progress>
+            </Div>
+            <Div class="assign">
+              <p>Progamming labb</p>
+              <label for="assignment"> Assignment progress:</label>
+              <progress id="file" max="100" value="40">40%</progress>
+            </Div>
         </section>
 
         <section class="addAssignment">
-            <button>Add Assignment</button>
+            <button id="button">Add Assignment</button>
         </section>
          
         <section class="achievments">
-            <p>Achievments</p>
+          <h2>Finished assignments:</h2>
+          <div id="done">
             <Div>
-               <p>Achievment 1</p>
+               <p>you currently have no finished assignments..</p>
             </Div>
             <Div>
-               <p>Achievment 2</p>
+               <p></p>
             </Div>
             <div>
-                <p>Achievment 3</p>
+                <p></p>
             </div>
+          </div>
             
         </section>
       </main>
+      
+  <footer>&copy 2026 programveckor</footer>
 </body>
 </html>
