@@ -377,16 +377,18 @@ margin: 1em;
   padding: 12px 40px;
   border: none;
   border-radius: 8px;
-  color: #333;
+  color: black;
   font-weight: normal;
   cursor: pointer;
   transition: 0.3s;
   width: 250px;
   font-size: 14px;
+  text-decoration: none;
 }
 
 .action-btn a{
   text-decoration: none;
+  color: black;
 }
 
 .action-btn:hover{
