@@ -448,25 +448,6 @@ footer{
 }
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-}
-
-.header {
-    background-color: #ffeb3b;
-    padding: 15px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .menu-btn {
     font-weight: bold;
     cursor: pointer;
@@ -475,7 +456,6 @@ body {
 .user-icon {
     width: 35px;
     height: 35px;
-    background-color: white;
     border-radius: 50%;
     display: flex;
     align-items: center;
