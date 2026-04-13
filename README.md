@@ -1,7 +1,7 @@
 readme.MD
 
-# Namn på projektet:
-Stud-bros
+# Namn på projektet: Stud-bros
+
 
 Namn på alla deltagar: 
 Viggo, Valter, Simon, Kiko, Suzan
