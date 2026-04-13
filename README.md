@@ -1,8 +1,10 @@
 readme.MD
 
-# Namn på projektet: 
+# Namn på projektet:
+Stud-bros
 
-Namn på alla deltagar: Viggo, Valter, Simon, Kiko, Suzan
+Namn på alla deltagar: 
+Viggo, Valter, Simon, Kiko, Suzan
 
 ### Tävlar i kategori: 
 Bästa innovativa idé
